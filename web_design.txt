@@ -1,0 +1,5 @@
+base color of blog web 
+
+1. text color :
+- light: saturation 8%
+- dark : #

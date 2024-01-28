@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="/asset/pStyle.css" />
+    <title>My Blog</title>
+  </head>
+  <body>
+    <!-- HEADER NAVIGATION -->
+    <div class="header responsive" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">Huong</a>
+
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list grid">
+            <li class="nav_item">
+              <i class="uil uil-estate"></i>
+              <a href="#home" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <i class="uil uil-user"></i>
+              <a href="#about" class="nav_link">About</a>
+            </li>
+            <li class="nav_item">
+              <i class="uil uil-file-info-alt"></i>
+              <a href="#skills" class="nav_link">Skills</a>
+            </li>
+            <li class="nav_item active">
+              <i class="uil uil-bag"></i>
+              <a href="#education" class="nav_link">Education</a>
+            </li>
+            <li class="nav_item">
+              <i class="uil uil-image"></i>
+              <a href="#project" class="nav_link">Project</a>
+            </li>
+            <li class="nav_item">
+              <i class="uil uil-message"></i>
+              <a href="#contact" class="nav_link">Contact</a>
+            </li>
+          </ul>
+          <div class="toggle-cancel">
+            <i class="uil uil-times"></i>
+          </div>
+        </div>
+        <div class="menu">
+          <div class="icon_theme">
+            <i class="uil uil-moon"></i>
+          </div>
+          <div class="toggle-menu">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- MAIN -->
+    <div class="main" id="main">
+      <section class="home container" id="home">
+        <div class="home_social grid">
+          <div class="icon_social">
+            <a href="#" target="_blank"><i class="uil uil-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="uil uil-github-alt"></i></a>
+            <a href="#" target="_blank"
+              ><i class="uil uil-instagram-alt"></i
+            ></a>
+          </div>
+          <div class="home_social_img">
+            <svg
+              class="home_blob"
+              viewBox="0 0 200 187"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <mask id="mask0" mask-type="alpha">
+                <path
+                  d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                />
+              </mask>
+              <g mask="url(#mask0)">
+                <path
+                  d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                />
+                <image class="img_social" href="/asset/img/perfil.png" />
+              </g>
+            </svg>
+          </div>
+          <div class="data_title">
+            <div class="home_data">
+              <div class="home_title">Hi, I'm Huong</div>
+              <div class="home_subtitle">Front-end developer</div>
+              <div class="home_description">
+                Low level experience in web developer and design
+                knowledge,producing quality work.
+              </div>
+            </div>
+
+            <div class="home_button">
+              <a href="#contact" class="btn_contact">
+                Contact me
+                <i class="uil uil-message"></i>
+              </a>
+              <a href="#about" class="scroll-down">
+                <i class="uil uil-mouse-alt-2"></i>
+                Scroll down
+                <i class="uil uil-arrow-down"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--================ABOUT================ -->
+      <section class="about container" id="about">
+        <div class="container">
+          <div class="section_title">About me</div>
+          <div class="section_subtitle">My introduction</div>
+        </div>
+        <div class="about_content grid">
+          <div class="img_abt">
+            <img src="/asset/img/about.jpg" alt="" />
+          </div>
+
+          <div class="inf_and_CV">
+            <div class="my_description">
+              This paragraph contains a lot of lines in the source code, but the
+              browser ignores it.This paragraph contains a lot of lines in the
+              source code, but the browser ignores it.
+            </div>
+            <div class="about_btn">
+              <a download="" href="/asset/pdf/Alexa-Cv.pdf" class="btn-flex">
+                Dowload CV<i class="uil uil-import"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ================ SKILLS ================ -->
+      <section class="skills container" id="skills">
+        <div class="container">
+          <div class="section_title">Skills</div>
+          <div class="section_subtitle">My technical level</div>
+        </div>
+        <div class="skills_container grid">
+          <div class="frontend sub_section">
+            <div class="frontend_title skill_title">
+              <div class="main_title">
+                <i class="uil uil-brackets-curly"></i>
+                Front-end developer
+              </div>
+              <i class="uil uil-angle-down arrow"></i>
+            </div>
+            <div class="active_list">
+              <div class="list_skills">
+                <div class="skill_of_list">
+                  <div class="inf_skill">
+                    <div class="name_skill">HTML</div>
+                    <div class="level">90%</div>
+                  </div>
+                  <div class="tab_bar">
+                    <div class="skill_html"></div>
+                  </div>
+                </div>
+                <div class="skill_of_list">
+                  <div class="inf_skill">
+                    <div class="name_skill">HTML</div>
+                    <div class="level">90%</div>
+                  </div>
+                  <div class="tab_bar">
+                    <div class="skill_html"></div>
+                  </div>
+                </div>
+                <div class="skill_of_list">
+                  <div class="inf_skill">
+                    <div class="name_skill">HTML</div>
+                    <div class="level">90%</div>
+                  </div>
+                  <div class="tab_bar">
+                    <div class="skill_html"></div>
+                  </div>
+                </div>
+                <div class="skill_of_list">
+                  <div class="inf_skill">
+                    <div class="name_skill">HTML</div>
+                    <div class="level">90%</div>
+                  </div>
+                  <div class="tab_bar">
+                    <div class="skill_html"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="backend sub_section">
+            <div class="backend_title skill_title">
+              <div class="main_title">
+                <i class="uil uil-desktop icon_title"></i>
+                Back-end developer
+              </div>
+              <i class="uil uil-angle-down arrow"></i>
+            </div>
+            <div class="active_list">
+              <div class="list_skills">
+                <div class="skill_of_list">
+                  <div class="inf_skill">
+                    <div class="name_skill">Java</div>
+                    <div class="level">90%</div>
+                  </div>
+                  <div class="tab_bar">
+                    <div class="skill_html"></div>
+                  </div>
+                </div>
+                <div class="skill_of_list">
+                  <div class="inf_skill">
+                    <div class="name_skill">Node js</div>
+                    <div class="level">90%</div>
+                  </div>
+                  <div class="tab_bar">
+                    <div class="skill_html"></div>
+                  </div>
+                </div>
+                <div class="skill_of_list">
+                  <div class="inf_skill">
+                    <div class="name_skill">PHP</div>
+                    <div class="level">90%</div>
+                  </div>
+                  <div class="tab_bar">
+                    <div class="skill_html"></div>
+                  </div>
+                </div>
+                <div class="skill_of_list">
+                  <div class="inf_skill">
+                    <div class="name_skill">HTML</div>
+                    <div class="level">90%</div>
+                  </div>
+                  <div class="tab_bar">
+                    <div class="skill_html"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ================ QUALIFICATION ================-->
+      <section class="qualification container" id="qualification">
+        <div class="qualification_title">
+          <div class="section_title">Qualification</div>
+          <div class="section_subtitle">My personal journey</div>
+        </div>
+        <div class="button_qualification">
+          <div class="education" id="education">
+            <i class="uil uil-graduation-cap qualification_icon"></i>
+            Education
+          </div>
+          <div class="work" id="work">
+            <i class="uil uil-graduation-cap qualification_icon"></i>
+            Work
+          </div>
+        </div>
+        <!-- ========================= EDUCATION DATA ========================= -->
+        <div class="qualifications_data education_data active">
+          <div class="qualification_data">
+            <div class="qualification_inf">
+              <div class="qualification_name">Information Technology</div>
+              <div class="qualification_level">PTIT-University</div>
+              <div class="qualification_calendar">
+                <i class="uil uil-schedule"></i>
+                2021-2026
+              </div>
+            </div>
+            <div>
+              <div class="qualification_router"></div>
+              <div class="qualification_line"></div>
+            </div>
+            <div></div>
+          </div>
+          <div class="qualification_data">
+            <div></div>
+            <div>
+              <div class="qualification_router"></div>
+              <div class="qualification_line"></div>
+            </div>
+            <div class="qualification_inf">
+              <div class="qualification_name">Information Technology</div>
+              <div class="qualification_level">PTIT-University</div>
+              <div class="qualification_calendar">
+                <i class="uil uil-schedule"></i>
+                2021-2026
+              </div>
+            </div>
+          </div>
+          <div class="qualification_data">
+            <div class="qualification_inf">
+              <div class="qualification_name">Information Technology</div>
+              <div class="qualification_level">PTIT-University</div>
+              <div class="qualification_calendar">
+                <i class="uil uil-schedule"></i>
+                2021-2026
+              </div>
+            </div>
+            <div>
+              <div class="qualification_router"></div>
+              <div class="qualification_line"></div>
+            </div>
+            <div></div>
+          </div>
+          <div class="qualification_data">
+            <div></div>
+            <div>
+              <div class="qualification_router"></div>
+            </div>
+            <div class="qualification_inf">
+              <div class="qualification_name">Information Technology</div>
+              <div class="qualification_level">PTIT-University</div>
+              <div class="qualification_calendar">
+                <i class="uil uil-schedule"></i>
+                2021-2026
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ========================= WORK DATA ========================= -->
+        <div class="qualifications_data work_data active">
+          <div class="qualification_data">
+            <div class="qualification_inf">
+              <div class="qualification_name">Front-end developer</div>
+              <div class="qualification_level">FPT SOFTWARE</div>
+              <div class="qualification_calendar">
+                <i class="uil uil-schedule"></i>
+                2024-2026
+              </div>
+            </div>
+            <div>
+              <div class="qualification_router"></div>
+              <div class="qualification_line"></div>
+            </div>
+            <div></div>
+          </div>
+          <div class="qualification_data">
+            <div></div>
+            <div>
+              <div class="qualification_router"></div>
+              <div class="qualification_line"></div>
+            </div>
+            <div class="qualification_inf">
+              <div class="qualification_name">Information Technology</div>
+              <div class="qualification_level">PTIT-University</div>
+              <div class="qualification_calendar">
+                <i class="uil uil-schedule"></i>
+                2021-2026
+              </div>
+            </div>
+          </div>
+          <div class="qualification_data">
+            <div class="qualification_inf">
+              <div class="qualification_name">Information Technology</div>
+              <div class="qualification_level">PTIT-University</div>
+              <div class="qualification_calendar">
+                <i class="uil uil-schedule"></i>
+                2021-2026
+              </div>
+            </div>
+            <div>
+              <div class="qualification_router"></div>
+              <div class="qualification_line"></div>
+            </div>
+            <div></div>
+          </div>
+          <div class="qualification_data">
+            <div></div>
+            <div>
+              <div class="qualification_router"></div>
+            </div>
+            <div class="qualification_inf">
+              <div class="qualification_name">Information Technology</div>
+              <div class="qualification_level">PTIT-University</div>
+              <div class="qualification_calendar">
+                <i class="uil uil-schedule"></i>
+                2021-2026
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========================= SERVICES IN FUTURE ========================= -->
+      <!-- <section class="services" id="services">
+            
+        </section> -->
+      <!-- ========================= MY PROJECT AND DEMO ========================= -->
+      <section class="project container" id="project">
+        <div class="project_title">
+          <div class="section_title">Project</div>
+          <div class="section_subtitle">My project</div>
+        </div>
+
+        <div class="list_projects">
+          <div class="project grid">
+            <div class="img_project">
+              <img src="/asset/img/portfolio1.jpg" alt="" />
+            </div>
+            <div class="info_project">
+              <div class="name_project">Project_1</div>
+              <div class="description_project">
+                We recommend reading this tutorial, in the sequence listed in
+                the left menu. Java is an object oriented language and some
+                concepts may be new. Take breaks when needed, and go over the
+                examples as many times as needed.
+              </div>
+              <div class="btn_demo_project">
+                <a href="#" class="btn-flex btn-demo">Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="img_project">
+              <img src="/asset/img/portfolio1.jpg" alt="" />
+            </div>
+            <div class="info_project">
+              <div class="name_project">Project_1</div>
+              <div class="description_project">
+                We recommend reading this tutorial, in the sequence listed in
+                the left menu. Java is an object oriented language and some
+                concepts may be new. Take breaks when needed, and go over the
+                examples as many times as needed.
+              </div>
+              <div class="btn_demo_project">
+                <a href="#" class="btn-flex btn-demo">Demo</a>
+              </div>
+            </div>
+          </div>
+          <div class="project grid">
+            <div class="img_project">
+              <img src="/asset/img/portfolio1.jpg" alt="" />
+            </div>
+            <div class="info_project">
+              <div class="name_project">Project_1</div>
+              <div class="description_project">
+                We recommend reading this tutorial, in the sequence listed in
+                the left menu. Java is an object oriented language and some
+                concepts may be new. Take breaks when needed, and go over the
+                examples as many times as needed.
+              </div>
+              <div class="btn_demo_project">
+                <a href="#" class="btn-flex btn-demo">Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========================= PART FOR CLIENT WANT TO CONTACT ME IN FUTURE ========================= -->
+      <!-- ========================= REVIEW OF CLIENTS IN FUTURE ========================= -->
+      <!-- ========================= CONTACT ME ========================= -->
+      <section class="contact container" id="contact">
+        <div class="contact_title">
+          <div class="section_title">Contact</div>
+          <div class="section_subtitle">Contact me for work</div>
+        </div>
+        <div class="contact_inf_and_message grid">
+          <div class="contact_information grid">
+            <div class="contact_inf">
+              <div class="contact_inf_icon">
+                <i class="uil uil-envelope-edit"></i>
+              </div>
+              <div class="contact_details_inf">
+                <span class="inf_title">Email</span><br />
+                <span class="inf_sub">nguyenquanghuong911@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact_inf">
+              <div class="contact_inf_icon">
+                <i class="uil uil-phone-alt"></i>
+              </div>
+              <div class="contact_details_inf">
+                <span class="inf_title">Phone Number</span><br />
+                <span class="inf_sub">0377322912</span>
+              </div>
+            </div>
+            <div class="contact_inf">
+              <div class="contact_inf_icon">
+                <i class="uil uil-map-marker"></i>
+              </div>
+              <div class="contact_details_inf">
+                <span class="inf_title">Location</span><br />
+                <span class="inf_sub">Ha Noi, Viet Nam</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact_form">
+            <form
+              action="mailto:nguyenquanghuong911@gmail.com"
+              method="POST"
+              enctype="multipart/form-data"
+              class="contact_main_form grid"
+            >
+              <div class="contact_name contact_input">
+                <label for="name">Name</label><br />
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="contact_email contact_input">
+                <label for="email">Email</label><br />
+                <input type="text" name="email" id="email" />
+              </div>
+              <div class="contact_project contact_input">
+                <label for="project">Project</label><br />
+                <input type="text" name="project" id="project" />
+              </div>
+              <div class="contact_message contact_input">
+                <label for="message">Message</label><br />
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="0"
+                  rows="7"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-submit btn-flex">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="footer" id="footer">
+      <div class="main_footer container grid" id="main_">
+        <div class="footer_main_title">
+        <div class="footer_title">Hyungs</div>
+        <div class="footer_title_des">
+            Front-end Developer!
+        </div>
+        </div>
+        <div class="footer_link grid">
+          <a href="#"> Service </a>
+          <a href="#"> Project </a>
+          <a href="#"> Contact tme </a>
+        </div>
+
+        <div class="footer_icon">
+          <a href="#" target="_blank"><i class="uil uil-facebook-f"></i></a>
+          <a href="#" target="_blank"><i class="uil uil-github-alt"></i></a>
+          <a href="#" target="_blank"><i class="uil uil-instagram-alt"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll_up" id="scroll_up">
+      <a href="#home">
+        <i class="uil uil-arrow-up"></i>
+      </a>
+    </div>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script src="/asset/active_web.js"></script>
+  <!-- SLICK SLIDER FOR LIST PROJECTS -->
+  <!-- <script>
+    $(document).ready(function(){
+        $('.list_projects').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            infinite:true,
+            prevArrow:`
+            <button type="button" class="slick-prev slick-custom"><i class="uil uil-angle-left-b"></i></button>
+            `,
+            nextArrow:`
+            <button type="button" class="slick-next slick-custom"><i class="uil uil-angle-right-b"></i></button>
+            `,
+            dots:true
+        });
+      });
+</script> -->
+</html>
